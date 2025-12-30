@@ -1,0 +1,7 @@
+{
+  "format": 2,
+  "parts": {
+    "engine": "civic8_engine",
+    "gearbox": "civic8_gearbox"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "civic8": {
+    "information": {
+      "authors": "ChatGPT",
+      "name": "Civic 8 Prototype"
+    },
+
+    "nodes": [
+      ["id", "posX", "posY", "posZ"],
+      ["n1",  0.0,  0.0, 0.3],
+      ["n2",  1.2,  0.0, 0.3],
+      ["n3", -1.2,  0.0, 0.3]
+    ],
+
+    "beams": [
+      ["id1:", "id2:"],
+      ["n1", "n2"],
+      ["n1", "n3"]
+    ],
+
+    "engine": {
+      "engineType": "piston",
+      "engineLua": "civic8_engine"
+    },
+
+    "transmission": {
+      "gearboxLua": "civic8_gearbox"
+    }
+  }
+}
